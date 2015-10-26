@@ -1,43 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <windows.h>
-using namespace std;
-/*
-
-1. написать функцию заполняет динимаческие одномерные масивы
-1 все кратые 2
-2 все положительные
-3 максимальные по модулю.
-
-1. все главнA1ой
-2. четные
-3 максимальные.
-*/
-int main()
-{
-    int A[5][5];
-    int Rand = 3;
-    for(int i=0; i<5; i++)
-    {
-        cout<<endl;
-        for(int j=0; j<5; j++)
-        {
-            A[i][j] = Rand;
-            Rand++;
-            cout<<A[i][j]<<"\t";
-        }
-    }
-    std::vector<int> A1,
-                A2,
-                A3;
-for(int i=0; i<5; i++)
-    {
-        for(int j=0; j<5; j++)
-        {
-            int CurrentValue = A[i][j];
-            if (i == j)
-            {
-                A1.push_back(CurrentValue);
+e);
             }
             if (CurrentValue % 2 == 0)
             {
